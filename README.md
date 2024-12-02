@@ -122,6 +122,12 @@ test/
 
 ## Getting Started 🚀
 
+### Requirements
+
+- Flutter SDK 3.24.5 or higher
+
+### Configuration
+
 To update the base URL for the API, you can set the `SOLAR_API_BASE_URL` using the `--dart-define` flag, update the value in the `.vscode/launch.json` file
 
 ```json
