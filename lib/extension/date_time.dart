@@ -1,4 +1,5 @@
-/// Extension methods for DateTime to provide additional date comparison functionality.
+/// Extension methods for DateTime to provide
+/// additional date comparison functionality.
 extension DateTimeX on DateTime {
   /// Returns true if this date is today.
   ///
