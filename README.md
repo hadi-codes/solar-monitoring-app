@@ -10,7 +10,7 @@ A Flutter mobile application for monitoring and analyzing solar power systems in
 | ![Date Picker](media/date_picker.png) | ![Theme Dialog](media/theme_dialog.png) |
 | ![Time Picker](media/time_picker.png) | ![Unit Dialog](media/unit_dialog.png)   |
 
-Video Demo: [URL](http://google.com)
+Video Demo: [URL](https://youtu.be/Wm0X8hNVHx0)
 
 ---
 
