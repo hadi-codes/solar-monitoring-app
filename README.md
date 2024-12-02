@@ -2,7 +2,7 @@
 
 A Flutter mobile application for monitoring and analyzing solar power systems in real-time. The app displays energy data through interactive charts and graphs, allowing users to track solar generation, household consumption, and battery usage patterns.
 
-## Demo
+### Demo
 
 | Monitoring & Analysis                 | Settings & Customization                |
 | ------------------------------------- | --------------------------------------- |
@@ -11,6 +11,16 @@ A Flutter mobile application for monitoring and analyzing solar power systems in
 | ![Time Picker](media/time_picker.png) | ![Unit Dialog](media/unit_dialog.png)   |
 
 Video Demo: [URL](https://youtu.be/Wm0X8hNVHx0)
+
+### Trade-offs and design choices:
+
+- While I aimed to implement zoom & panning functionality for the line charts, fl_chart currently doesn't support these features. Instead of investing time in researching alternative packages or building a custom solution, I implemented manual time range selection using a time picker.
+
+- The persistent_storage package uses shared preferences, which isn't ideal for storing large volumes of data. However, I chose this approach given this is a demonstration application.
+
+- Regarding data freshness, I implemented a hybrid approach: caching for historical data and polling for current-day data, as implementing both strategies would be redundant.
+
+- For the UI design, I utilized Material 3 with the flex_color_scheme package. This combination provided a polished look within the project's time constraints.
 
 ---
 
