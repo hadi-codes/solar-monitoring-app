@@ -1,0 +1,21 @@
+name: monitoring_repository
+description: Monitoring Repository
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  built_collection: ^5.1.1
+  dio: ^5.7.0
+  equatable: ^2.0.7
+  solar_monitor_api:
+    path: ../solar_monitor_api
+  storage:
+    path: ../storage/storage
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0
