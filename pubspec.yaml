@@ -31,7 +31,7 @@ dependencies:
   json_annotation: ^4.9.0
   monitoring_repository:
     path: packages/monitoring_repository
-  openapi_generator_annotations: ^6.0.0
+  openapi_generator_annotations: ^6.1.0
 
   path_provider: ^2.1.5
   persistent_storage:
